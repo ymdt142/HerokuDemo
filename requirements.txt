@@ -69,7 +69,7 @@ pyzmq==17.1.0
 qtconsole==4.3.1
 requests==2.19.1
 rsa==3.4.2
-scapy==2.4.0
+scapy==2.4.1
 Send2Trash==1.5.0
 service-identity==17.0.0
 simplegeneric==0.8.1
