@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+    <body>
+    <h1>abroad join predction</h1>
+<div class="form">
+    <form action='/predict' method='POST'>
+        <input type="number" name="gre_score" id="gre_score" placeholder="GRE Score">
+        <input type="number" name="toefl_score" id="toefl_score" placeholder="TOFL Score">
+        <input type="number" name="university_rating" id="university_rating" placeholder="University Rating">
+        <input type="number" name="sop" id="sop" placeholder="SOP Score">
+        <input type="number" name="lor" id="lor" placeholder="LOR Score">
+        <input type="number" name="cgpa" id="cgpa" placeholder="CGPA" step="any">
+        <select name="research" id="research">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+        <input type="submit" value="Predict">
+    </form>
+</div>
+
+
+
+</body>
+</html>
